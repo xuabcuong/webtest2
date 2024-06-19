@@ -12,3 +12,10 @@ RewriteRule . /webbanhang/index.php [L]
 </IfModule>
 
 # END WordPress
+# BEGIN Simply Static
+# Các nội dung nằm giữa "BEGIN Simply Static" và "END Simply Static" được tạo ra tự động, và chỉ nên được thay đổi thông qua các filter của WordPress. Mọi thay đổi tới thành phần này có thể sẽ bị mất và ghi đè.
+<Files "C:\xampp\htdocs\webbanhang/wp-content/uploads\simply-static\a4f41393a75aa6d8d6751306eac7a8dc-debug.txt">
+require all denied
+require host localhost
+</Files>
+# END Simply Static
